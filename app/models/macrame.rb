@@ -1,0 +1,2 @@
+class Macrame < ApplicationRecord
+end

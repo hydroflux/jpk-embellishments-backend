@@ -1,7 +1,24 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Macrame.destroy_all
+
+Macrame.create([
+    {
+        name: "heart coasters",
+        style: "coaster",
+        image: "./assets/heart_coasters.png"
+    },
+    {
+        name: "heart keychains",
+        style: "keychains",
+        image: "./assets/keychains.png"
+    },
+    {
+        name: "wall hanging",
+        style: "wall hanging",
+        image: "./assets/wall-hanging.jpg"
+    },
+    {
+        name: "postinos broadway artist",
+        style: "artist",
+        image: "./assets/the-artist.jpg"
+    },
+])
